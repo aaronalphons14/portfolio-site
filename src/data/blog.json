@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "title": "Building Scalable ML Pipelines with TensorFlow",
+    "excerpt": "A comprehensive guide to designing and implementing production-ready machine learning pipelines that can handle millions of predictions.",
+    "content": "Machine learning in production requires careful consideration of scalability, monitoring, and deployment strategies. In this post, we explore best practices for building ML pipelines that can grow with your business needs...\n\nKey topics covered:\n- Data preprocessing at scale\n- Model versioning and A/B testing\n- Monitoring and alerting\n- Cost optimization strategies",
+    "date": "2024-01-15",
+    "readTime": "8 min read",
+    "category": "Machine Learning",
+    "image": "/images/blog-ml.jpg",
+    "tags": ["TensorFlow", "MLOps", "Python"]
+  },
+  {
+    "id": 2,
+    "title": "The Future of Voice Interfaces in Web Applications",
+    "excerpt": "Exploring how Web Speech API and AI are revolutionizing the way users interact with web applications.",
+    "content": "Voice interfaces are becoming increasingly important in modern web applications. With advances in speech recognition and natural language processing, we can create more accessible and intuitive user experiences...\n\nThis article covers:\n- Web Speech API fundamentals\n- Integration with AI assistants\n- Accessibility benefits\n- Implementation best practices",
+    "date": "2024-01-08",
+    "readTime": "6 min read",
+    "category": "Web Development",
+    "image": "/images/blog-voice.jpg",
+    "tags": ["Web Speech API", "AI", "JavaScript"]
+  },
+  {
+    "id": 3,
+    "title": "Cybersecurity in the Age of AI: Threats and Solutions",
+    "excerpt": "How artificial intelligence is both a threat and a powerful tool in the fight against cyber attacks.",
+    "content": "As AI becomes more sophisticated, so do the cyber threats we face. However, the same technology can be our greatest ally in detecting and preventing attacks...\n\nTopics discussed:\n- AI-powered phishing detection\n- Behavioral analysis for threat detection\n- Automated incident response\n- The arms race between attackers and defenders",
+    "date": "2023-12-20",
+    "readTime": "10 min read",
+    "category": "Cybersecurity",
+    "image": "/images/blog-security.jpg",
+    "tags": ["Security", "AI", "NLP"]
+  }
+]

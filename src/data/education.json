@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "type": "school",
+    "institution": "Delhi Public School",
+    "degree": "High School Diploma",
+    "field": "Science Stream (PCM)",
+    "year": "2018 - 2020",
+    "grade": "95.6%",
+    "description": "Focused on Physics, Chemistry, and Mathematics with Computer Science as an additional subject.",
+    "achievements": ["School Topper in Computer Science", "Science Olympiad Gold Medal"]
+  },
+  {
+    "id": 2,
+    "type": "college",
+    "institution": "Indian Institute of Technology",
+    "degree": "Bachelor of Technology",
+    "field": "Computer Science & Engineering",
+    "year": "2020 - 2024",
+    "grade": "9.2 CGPA",
+    "description": "Specialization in Artificial Intelligence and Machine Learning with minor in Data Science.",
+    "achievements": ["Dean's List - All Semesters", "Best Project Award - Final Year"]
+  }
+]

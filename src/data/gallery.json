@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Hackathon Victory",
+    "image": "/images/gallery-1.jpg",
+    "category": "Events"
+  },
+  {
+    "id": 2,
+    "title": "Team Collaboration",
+    "image": "/images/gallery-2.jpg",
+    "category": "Work"
+  },
+  {
+    "id": 3,
+    "title": "Conference Talk",
+    "image": "/images/gallery-3.jpg",
+    "category": "Speaking"
+  },
+  {
+    "id": 4,
+    "title": "Award Ceremony",
+    "image": "/images/gallery-4.jpg",
+    "category": "Awards"
+  },
+  {
+    "id": 5,
+    "title": "Coding Session",
+    "image": "/images/gallery-5.jpg",
+    "category": "Work"
+  },
+  {
+    "id": 6,
+    "title": "Tech Meetup",
+    "image": "/images/gallery-6.jpg",
+    "category": "Events"
+  }
+]
