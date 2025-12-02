@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "company": "Google",
+    "role": "Software Engineering Intern",
+    "duration": "May 2023 - Aug 2023",
+    "location": "Bangalore, India",
+    "description": "Worked on Google Cloud Platform team, developing ML pipeline optimization tools that improved training efficiency by 30%.",
+    "logo": "/images/google-logo.png",
+    "skills": ["Python", "TensorFlow", "GCP", "Kubernetes"]
+  },
+  {
+    "id": 2,
+    "company": "Microsoft",
+    "role": "Research Intern",
+    "duration": "Jan 2023 - Apr 2023",
+    "location": "Hyderabad, India",
+    "description": "Conducted research on natural language processing for Azure Cognitive Services, contributing to improved sentiment analysis accuracy.",
+    "logo": "/images/microsoft-logo.png",
+    "skills": ["NLP", "Azure", "PyTorch", "Research"]
+  },
+  {
+    "id": 3,
+    "company": "Startup XYZ",
+    "role": "Full Stack Developer Intern",
+    "duration": "Jun 2022 - Dec 2022",
+    "location": "Remote",
+    "description": "Built and deployed production-ready features for an ed-tech platform serving 100k+ users. Led frontend architecture redesign.",
+    "logo": "/images/startup-logo.png",
+    "skills": ["React", "Node.js", "MongoDB", "AWS"]
+  }
+]

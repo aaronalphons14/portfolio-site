@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "title": "Traffic Monitoring System",
+    "description": "Real-time traffic analysis and monitoring using computer vision and deep learning",
+    "longDescription": "A comprehensive traffic monitoring solution that leverages computer vision algorithms and TensorFlow for real-time vehicle detection, counting, and traffic flow analysis. The system provides live dashboards and alerts for traffic management authorities.",
+    "tech": ["React", "OpenCV", "TensorFlow", "Python"],
+    "image": "/images/project-traffic.jpg",
+    "liveUrl": "#",
+    "codeUrl": "#",
+    "category": "AI/ML"
+  },
+  {
+    "id": 2,
+    "title": "AI Cyber Shield",
+    "description": "NLP-powered system to detect fake offers and phishing attempts",
+    "longDescription": "An intelligent cybersecurity tool that uses Natural Language Processing to analyze and detect fraudulent offers, phishing emails, and scam messages. Built with FastAPI backend and sophisticated ML models for high accuracy threat detection.",
+    "tech": ["NLP", "Python", "FastAPI", "Machine Learning"],
+    "image": "/images/project-cyber.jpg",
+    "liveUrl": "#",
+    "codeUrl": "#",
+    "category": "Security"
+  },
+  {
+    "id": 3,
+    "title": "Jarvis AI Voice Assistant",
+    "description": "Intelligent voice-controlled assistant with natural language understanding",
+    "longDescription": "A sophisticated AI voice assistant inspired by Iron Man's Jarvis. Features voice recognition, natural language processing, and integration with OpenAI for intelligent responses. Supports task automation and smart home control.",
+    "tech": ["FastAPI", "Web Speech API", "OpenAI", "JavaScript"],
+    "image": "/images/project-jarvis.jpg",
+    "liveUrl": "#",
+    "codeUrl": "#",
+    "category": "AI"
+  },
+  {
+    "id": 4,
+    "title": "Smart Kitchen Monitoring",
+    "description": "IoT-based kitchen monitoring dashboard for smart appliances",
+    "longDescription": "A modern React-based frontend for monitoring smart kitchen appliances. Integrates with IoT sensors to track temperature, humidity, gas levels, and appliance status. Features real-time alerts and energy consumption analytics.",
+    "tech": ["React", "IoT", "WebSocket", "Chart.js"],
+    "image": "/images/project-kitchen.jpg",
+    "liveUrl": "#",
+    "codeUrl": "#",
+    "category": "IoT"
+  }
+]

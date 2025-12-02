@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "Google Code Jam Finalist",
+    "description": "Ranked in top 1000 globally in Google's prestigious coding competition",
+    "date": "2023",
+    "icon": "🏆"
+  },
+  {
+    "id": 2,
+    "title": "Hackathon Winner - Smart India Hackathon",
+    "description": "First place in national level hackathon for Traffic Management Solution",
+    "date": "2023",
+    "icon": "🥇"
+  },
+  {
+    "id": 3,
+    "title": "Published Research Paper",
+    "description": "IEEE published paper on 'AI-Driven Cybersecurity Solutions'",
+    "date": "2022",
+    "icon": "📄"
+  },
+  {
+    "id": 4,
+    "title": "Open Source Contributor",
+    "description": "500+ contributions to major open source projects including TensorFlow",
+    "date": "2021-Present",
+    "icon": "💻"
+  },
+  {
+    "id": 5,
+    "title": "AWS Certified Solutions Architect",
+    "description": "Professional certification for cloud architecture and deployment",
+    "date": "2023",
+    "icon": "☁️"
+  }
+]
