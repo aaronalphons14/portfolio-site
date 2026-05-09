@@ -1,36 +1,42 @@
 [
   {
     "id": 1,
-    "title": "Hackathon Victory",
+    "title": "Cyberverse Hackathon Victory",
     "image": "/images/gallery-1.jpg",
-    "category": "Events"
+    "category": "Hackathons"
   },
   {
     "id": 2,
-    "title": "Team Collaboration",
-    "image": "/images/gallery-2.jpg",
-    "category": "Work"
+    "title": "Impact-AI-Thon '26 — Cash Prize Award",
+    "image": "/images/hackathon-cashprize.jpg",
+    "category": "Hackathons"
   },
   {
     "id": 3,
-    "title": "Conference Talk",
-    "image": "/images/gallery-3.jpg",
-    "category": "Speaking"
+    "title": "Impact-AI-Thon '26 — Award Ceremony",
+    "image": "/images/hackathon-ceremony.jpg",
+    "category": "Hackathons"
   },
   {
     "id": 4,
+    "title": "Riviera VIT — Coordinator",
+    "image": "/images/riviera-coordinator.jpg",
+    "category": "Extracurricular"
+  },
+  {
+    "id": 5,
+    "title": "Riviera VIT — Coordination Team",
+    "image": "/images/riviera-team.jpg",
+    "category": "Extracurricular"
+  },
+  {
+    "id": 6,
     "title": "Award Ceremony",
     "image": "/images/gallery-4.jpg",
     "category": "Awards"
   },
   {
-    "id": 5,
-    "title": "Coding Session",
-    "image": "/images/gallery-5.jpg",
-    "category": "Work"
-  },
-  {
-    "id": 6,
+    "id": 7,
     "title": "Tech Meetup",
     "image": "/images/gallery-6.jpg",
     "category": "Events"

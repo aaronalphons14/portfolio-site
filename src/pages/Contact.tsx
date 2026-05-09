@@ -9,9 +9,9 @@ import PageWrapper from "@/components/PageWrapper";
 import SectionTitle from "@/components/SectionTitle";
 
 const contactInfo = [
-  { icon: Mail, label: "Email", value: "your.email@example.com" },
+  { icon: Mail, label: "Email", value: "aaronalphons14@gmail.com" },
   { icon: MapPin, label: "Location", value: "India" },
-  { icon: Phone, label: "Phone", value: "+91 XXXXX XXXXX" },
+  { icon: Phone, label: "Phone", value: "+91 63623 37992" },
 ];
 
 const Contact = () => {

@@ -11,12 +11,11 @@ import About from "./pages/About";
 import Education from "./pages/Education";
 import Experience from "./pages/Experience";
 import Projects from "./pages/Projects";
+import Extracurriculars from "./pages/Extracurriculars";
 import Skills from "./pages/Skills";
 import Achievements from "./pages/Achievements";
 import Gallery from "./pages/Gallery";
 import Certificates from "./pages/Certificates";
-import Blog from "./pages/Blog";
-import BlogPost from "./pages/BlogPost";
 import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
@@ -38,13 +37,12 @@ const App = () => (
                 <Route path="/about" element={<About />} />
                 <Route path="/education" element={<Education />} />
                 <Route path="/experience" element={<Experience />} />
+                <Route path="/extracurriculars" element={<Extracurriculars />} />
                 <Route path="/projects" element={<Projects />} />
                 <Route path="/skills" element={<Skills />} />
                 <Route path="/achievements" element={<Achievements />} />
                 <Route path="/gallery" element={<Gallery />} />
                 <Route path="/certificates" element={<Certificates />} />
-                <Route path="/blog" element={<Blog />} />
-                <Route path="/blog/:id" element={<BlogPost />} />
                 <Route path="/resume" element={<Resume />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="*" element={<NotFound />} />

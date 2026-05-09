@@ -7,10 +7,10 @@ import SectionTitle from "@/components/SectionTitle";
 import profileImage from "@/assets/profile-placeholder.jpg";
 
 const facts = [
-  { icon: Code, label: "Lines of Code", value: "500K+" },
+  { icon: Code, label: "Lines of Code", value: "10k+" },
   { icon: Coffee, label: "Cups of Coffee", value: "1000+" },
-  { icon: Calendar, label: "Years Experience", value: "4+" },
-  { icon: MapPin, label: "Projects Completed", value: "50+" },
+  { icon: Calendar, label: "Years Experience", value: "1+" },
+  { icon: MapPin, label: "Projects Completed", value: "10+" },
 ];
 
 const About = () => {
@@ -47,11 +47,10 @@ const About = () => {
             className="md:col-span-2 glass-card p-6"
           >
             <h2 className="text-2xl font-bold text-foreground mb-4">
-              Hello! I'm <span className="gradient-text">Your Name</span>
+              Hello! I'm <span className="gradient-text">Aaron</span>
             </h2>
             <p className="text-muted-foreground mb-4">
-              I'm a passionate Full Stack Developer and AI/ML enthusiast with over 4 years of experience 
-              building innovative digital solutions. My journey in tech started with a curiosity about 
+              I'm a passionate Full Stack Developer and AI/ML enthusiast building innovative digital solutions. My journey in tech started with a curiosity about 
               how things work, and it has evolved into a career dedicated to creating impactful software.
             </p>
             <p className="text-muted-foreground mb-6">

@@ -1,4 +1,4 @@
-import { Github, Linkedin, Twitter, Mail } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -10,38 +10,31 @@ const Footer = () => {
           {/* Left: Copyright */}
           <div className="text-center md:text-left">
             <p className="text-muted-foreground text-sm">
-              © {currentYear} Your Name. All rights reserved.
+              © {currentYear} Aaron Alphons Thomas.
             </p>
             <p className="text-xs text-muted-foreground/60 mt-1">
-              Built with React, Tailwind CSS & Framer Motion
+              All rights reserved.
             </p>
           </div>
 
           {/* Center: Social Links */}
           <div className="flex items-center gap-4">
             <a
-              href="#"
+              href="https://github.com/aaronalphons14"
               className="p-2 rounded-lg text-muted-foreground hover:text-primary hover:bg-primary/10 transition-all duration-300"
               aria-label="GitHub"
             >
               <Github size={20} />
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/aaron-alphons-thomas/"
               className="p-2 rounded-lg text-muted-foreground hover:text-primary hover:bg-primary/10 transition-all duration-300"
               aria-label="LinkedIn"
             >
               <Linkedin size={20} />
             </a>
             <a
-              href="#"
-              className="p-2 rounded-lg text-muted-foreground hover:text-primary hover:bg-primary/10 transition-all duration-300"
-              aria-label="Twitter"
-            >
-              <Twitter size={20} />
-            </a>
-            <a
-              href="mailto:your.email@example.com"
+              href="mailto:aaronalphons14@gmail.com"
               className="p-2 rounded-lg text-muted-foreground hover:text-primary hover:bg-primary/10 transition-all duration-300"
               aria-label="Email"
             >
@@ -53,8 +46,7 @@ const Footer = () => {
           <div className="text-center md:text-right">
             <span className="text-xl font-bold gradient-text font-space">&lt;PORTFOLIO /&gt;</span>
             <p className="text-xs text-muted-foreground/40 mt-1">
-              {/* REPLACE: Change 'your_username' to your actual username */}
-              @your_username
+              Aaron Alphons Thomas
             </p>
           </div>
         </div>

@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Github, Linkedin, Twitter, Mail, Download, ArrowRight } from "lucide-react";
+import { Github, Linkedin, Mail, Download, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import PageWrapper from "@/components/PageWrapper";
@@ -8,10 +8,9 @@ import heroBg from "@/assets/hero-bg.jpg";
 
 const roles = ["Full Stack Developer", "AI/ML Engineer", "Open Source Contributor"];
 const socialLinks = [
-  { icon: Github, href: "#", label: "GitHub" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
-  { icon: Twitter, href: "#", label: "Twitter" },
-  { icon: Mail, href: "mailto:your.email@example.com", label: "Email" },
+  { icon: Github, href: "https://github.com/aaronalphons14", label: "GitHub" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/aaron-alphons-thomas/", label: "LinkedIn" },
+  { icon: Mail, href: "mailto:aaronalphons14@gmail.com", label: "Email" },
 ];
 
 const Index = () => {
@@ -91,7 +90,7 @@ const Index = () => {
               className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-4"
             >
               Hi, I'm{" "}
-              <span className="gradient-text">Your Name</span>
+              <span className="gradient-text">Aaron</span>
             </motion.h1>
 
             <motion.p

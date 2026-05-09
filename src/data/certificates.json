@@ -1,34 +1,34 @@
 [
   {
     "id": 1,
-    "title": "AWS Solutions Architect Professional",
+    "title": "AWS Cloud Technical Essentials",
     "issuer": "Amazon Web Services",
-    "date": "2023",
-    "image": "/images/cert-aws.jpg",
-    "credentialUrl": "#"
+    "date": "2025",
+    "image": "/images/certificates/cert-aws.jpg",
+    "credentialUrl": "https://coursera.org/verify/42RV0WACC08K"
   },
   {
     "id": 2,
-    "title": "TensorFlow Developer Certificate",
-    "issuer": "Google",
-    "date": "2023",
-    "image": "/images/cert-tensorflow.jpg",
-    "credentialUrl": "#"
+    "title": "Ethical Hacking Fundamentals",
+    "issuer": "LearnKartS",
+    "date": "2025",
+    "image": "/images/certificates/cert-eh.jpg",
+    "credentialUrl": "https://coursera.org/verify/CX3E5VMJ2PE6"
   },
   {
     "id": 3,
-    "title": "Meta Frontend Developer",
-    "issuer": "Meta",
-    "date": "2022",
-    "image": "/images/cert-meta.jpg",
-    "credentialUrl": "#"
+    "title": "GCP Google Cloud Professional Data Engineer",
+    "issuer": "Udemy",
+    "date": "2025",
+    "image": "/images/certificates/cert-gcp.jpg",
+    "credentialUrl": "https://www.udemy.com/certificate/UC-71b0e396-f7ca-4d8e-8eef-1dea04e6e87d/"
   },
   {
     "id": 4,
-    "title": "Microsoft Azure Fundamentals",
-    "issuer": "Microsoft",
-    "date": "2022",
-    "image": "/images/cert-azure.jpg",
-    "credentialUrl": "#"
+    "title": "Project Management",
+    "issuer": "Google",
+    "date": "2025",
+    "image": "/images/certificates/cert-pm.jpg",
+    "credentialUrl": "https://coursera.org/verify/2OQBUKN4REZX"
   }
 ]

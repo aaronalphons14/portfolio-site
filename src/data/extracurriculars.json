@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "title": "Riviera — VIT",
+    "role": "Event Coordinator",
+    "duration": "2025",
+    "description": "Served as a Coordinator for Riviera, the 4-day annual cultural fest at Vellore Institute of Technology, managing event coordination, participant support, and on-ground operations.",
+    "icon": "🎪",
+    "highlights": [
+      "Managed event coordination and logistics for the 4-day cultural fest",
+      "Handled participant support and on-ground operations",
+      "Collaborated with teams across departments for seamless execution"
+    ],
+    "image": "/images/riviera-coordinator.jpg"
+  }
+]

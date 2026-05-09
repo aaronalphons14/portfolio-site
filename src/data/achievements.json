@@ -1,37 +1,44 @@
 [
   {
     "id": 1,
-    "title": "Google Code Jam Finalist",
-    "description": "Ranked in top 1000 globally in Google's prestigious coding competition",
-    "date": "2023",
-    "icon": "🏆"
-  },
-  {
-    "id": 2,
-    "title": "Hackathon Winner - Smart India Hackathon",
-    "description": "First place in national level hackathon for Traffic Management Solution",
-    "date": "2023",
+    "title": "Impact-AI Hackathon — Winner 🏆",
+    "description": "Won 1st Place at Impact-AI-Thon '26, a 48-hour hackathon at St. Joseph's College of Engineering, Chennai. Competed as Team ThinkInBetween from VIT Vellore, winning ₹40,000 cash prize in the AI/ML category.",
+    "date": "2026",
     "icon": "🥇"
   },
   {
-    "id": 3,
-    "title": "Published Research Paper",
-    "description": "IEEE published paper on 'AI-Driven Cybersecurity Solutions'",
-    "date": "2022",
-    "icon": "📄"
+    "id": 2,
+    "title": "Cyberverse Hackathon — Runner-Up",
+    "description": "Secured Runner-Up position at Cyberverse, a 36-hour hackathon at Vellore Institute of Technology, Vellore. Built CyberShield — an AI-powered system for detecting spam offers and phishing attempts.",
+    "date": "2025",
+    "icon": "🥈"
   },
   {
-    "id": 4,
-    "title": "Open Source Contributor",
-    "description": "500+ contributions to major open source projects including TensorFlow",
-    "date": "2021-Present",
+    "id": 3,
+    "title": "LeetCode Problem Solver",
+    "description": "Solved 50+ problems on LeetCode, strengthening problem-solving and DSA skills across arrays, graphs, trees, and dynamic programming.",
+    "date": "2025",
     "icon": "💻"
   },
   {
-    "id": 5,
-    "title": "AWS Certified Solutions Architect",
-    "description": "Professional certification for cloud architecture and deployment",
-    "date": "2023",
+    "id": 4,
+    "title": "AWS Cloud Technical Certificate",
+    "description": "Earned AWS Cloud Technical Essentials certification, demonstrating proficiency in cloud architecture and deployment.",
+    "date": "2025",
     "icon": "☁️"
+  },
+  {
+    "id": 5,
+    "title": "Google Project Management Certificate",
+    "description": "Completed Google's Project Management professional certificate, mastering Agile methodologies, stakeholder management, and project lifecycle.",
+    "date": "2025",
+    "icon": "📋"
+  },
+  {
+    "id": 6,
+    "title": "Merit Rank Holder — VIT",
+    "description": "Achieved merit rank in the first year at Vellore Institute of Technology with a 9.44 CGPA in Integrated MTech CSE.",
+    "date": "2024",
+    "icon": "🎓"
   }
 ]

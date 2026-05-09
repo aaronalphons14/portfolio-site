@@ -35,6 +35,7 @@ const Projects = () => {
                   {project.category === "Security" && "🛡️"}
                   {project.category === "AI" && "🧠"}
                   {project.category === "IoT" && "📡"}
+                  {project.category === "Web" && "🌐"}
                 </span>
                 <div className="absolute top-3 left-3">
                   <span className="tech-badge">{project.category}</span>
@@ -67,33 +68,7 @@ const Projects = () => {
                   )}
                 </div>
 
-                {/* Actions */}
-                <div className="flex gap-2">
-                  <Button
-                    variant="neon"
-                    size="sm"
-                    className="flex-1"
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      window.open(project.liveUrl, "_blank");
-                    }}
-                  >
-                    <ExternalLink size={14} />
-                    Live
-                  </Button>
-                  <Button
-                    variant="outline"
-                    size="sm"
-                    className="flex-1"
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      window.open(project.codeUrl, "_blank");
-                    }}
-                  >
-                    <Github size={14} />
-                    Code
-                  </Button>
-                </div>
+                
               </div>
             </motion.div>
           ))}

@@ -1,32 +1,12 @@
 [
   {
     "id": 1,
-    "company": "Google",
-    "role": "Software Engineering Intern",
-    "duration": "May 2023 - Aug 2023",
-    "location": "Bangalore, India",
-    "description": "Worked on Google Cloud Platform team, developing ML pipeline optimization tools that improved training efficiency by 30%.",
-    "logo": "/images/google-logo.png",
-    "skills": ["Python", "TensorFlow", "GCP", "Kubernetes"]
-  },
-  {
-    "id": 2,
-    "company": "Microsoft",
-    "role": "Research Intern",
-    "duration": "Jan 2023 - Apr 2023",
-    "location": "Hyderabad, India",
-    "description": "Conducted research on natural language processing for Azure Cognitive Services, contributing to improved sentiment analysis accuracy.",
-    "logo": "/images/microsoft-logo.png",
-    "skills": ["NLP", "Azure", "PyTorch", "Research"]
-  },
-  {
-    "id": 3,
-    "company": "Startup XYZ",
-    "role": "Full Stack Developer Intern",
-    "duration": "Jun 2022 - Dec 2022",
-    "location": "Remote",
-    "description": "Built and deployed production-ready features for an ed-tech platform serving 100k+ users. Led frontend architecture redesign.",
-    "logo": "/images/startup-logo.png",
-    "skills": ["React", "Node.js", "MongoDB", "AWS"]
+    "company": "Persistent Systems",
+    "role": "AI/ML Intern (Remote)",
+    "duration": "May 2025 - Present",
+    "location": "Remote, India",
+    "description": "Developed an AI-powered Smart Traffic Monitoring System using Flask, Python, YOLOv8, OpenCV, and Google Maps APIs. Detect and track multiple vehicle types with over 95% accuracy, along with lane detection and lane-change alerts. Built AI-driven traffic analytics including live speed estimation, traffic-density classification, type-wise vehicle counting, and congestion-zone visualization with GPS-based routing. Designed a responsive web dashboard with real-time charts, analytics panels, CSV/PDF export, and voice-enabled features.",
+    "logo": "",
+    "skills": ["Python", "OpenCV", "YOLOv8", "Flask", "Google Maps API", "JavaScript", "TensorFlow"]
   }
 ]

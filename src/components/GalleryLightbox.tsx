@@ -8,7 +8,7 @@ interface GalleryItem {
   category: string;
 }
 
-interface GalleryLightboxProps {
+interface Props {
   images: GalleryItem[];
   currentIndex: number;
   isOpen: boolean;
@@ -17,76 +17,69 @@ interface GalleryLightboxProps {
   onPrev: () => void;
 }
 
-const GalleryLightbox = ({
+export default function GalleryLightbox({
   images,
   currentIndex,
   isOpen,
   onClose,
   onNext,
   onPrev,
-}: GalleryLightboxProps) => {
-  const currentImage = images[currentIndex];
+}: Props) {
+  const current = images[currentIndex];
 
   return (
     <AnimatePresence>
-      {isOpen && currentImage && (
+      {isOpen && current && (
         <>
-          {/* Backdrop */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             onClick={onClose}
-            className="fixed inset-0 bg-background/95 backdrop-blur-xl z-50"
+            className="fixed inset-0 bg-black/90 backdrop-blur-sm z-40"
           />
 
-          {/* Content */}
           <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
+            initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
-            exit={{ opacity: 0, scale: 0.9 }}
-            className="fixed inset-0 z-50 flex items-center justify-center p-4"
+            exit={{ opacity: 0, scale: 0.95 }}
+            className="fixed inset-0 z-50 flex items-center justify-center p-6"
           >
-            {/* Close button */}
             <button
               onClick={onClose}
-              className="absolute top-4 right-4 p-3 rounded-full bg-muted/50 hover:bg-muted transition-colors"
-              aria-label="Close lightbox"
+              className="absolute top-4 right-4 p-3 rounded-full bg-white/10 hover:bg-white/20"
             >
-              <X size={24} />
+              <X size={26} />
             </button>
 
-            {/* Previous button */}
             <button
               onClick={onPrev}
-              className="absolute left-4 p-3 rounded-full bg-muted/50 hover:bg-muted transition-colors"
-              aria-label="Previous image"
+              className="absolute left-4 p-3 rounded-full bg-white/10 hover:bg-white/20"
             >
-              <ChevronLeft size={24} />
+              <ChevronLeft size={26} />
             </button>
 
-            {/* Image */}
-            <div className="max-w-4xl max-h-[80vh] relative">
-              <div className="aspect-video bg-muted rounded-xl flex items-center justify-center">
-                <span className="text-4xl">🖼️</span>
-              </div>
-              <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-background/80 to-transparent rounded-b-xl">
-                <h3 className="text-lg font-semibold text-foreground">{currentImage.title}</h3>
-                <span className="text-sm text-primary">{currentImage.category}</span>
+            <div className="max-w-6xl max-h-[85vh] w-full flex flex-col items-center">
+              <img
+                src={current.image}
+                alt={current.title}
+                className="rounded-xl object-contain w-full h-[75vh]"
+              />
+
+              <div className="mt-4 text-center">
+                <h3 className="text-xl font-semibold">{current.title}</h3>
+                <p className="text-primary text-sm">{current.category}</p>
               </div>
             </div>
 
-            {/* Next button */}
             <button
               onClick={onNext}
-              className="absolute right-4 p-3 rounded-full bg-muted/50 hover:bg-muted transition-colors"
-              aria-label="Next image"
+              className="absolute right-4 p-3 rounded-full bg-white/10 hover:bg-white/20"
             >
-              <ChevronRight size={24} />
+              <ChevronRight size={26} />
             </button>
 
-            {/* Image counter */}
-            <div className="absolute bottom-4 left-1/2 -translate-x-1/2 px-4 py-2 rounded-full bg-muted/50 text-sm">
+            <div className="absolute bottom-4 px-4 py-2 rounded-full bg-white/10">
               {currentIndex + 1} / {images.length}
             </div>
           </motion.div>
@@ -94,6 +87,4 @@ const GalleryLightbox = ({
       )}
     </AnimatePresence>
   );
-};
-
-export default GalleryLightbox;
+}

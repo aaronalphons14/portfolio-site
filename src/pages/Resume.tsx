@@ -62,8 +62,7 @@ const Resume = () => {
           transition={{ delay: 0.4 }}
           className="text-center text-sm text-muted-foreground mt-6"
         >
-          {/* REPLACE: Add your resume.pdf to the public folder */}
-          Note: Replace public/resume.pdf with your actual resume file.
+         
         </motion.p>
       </div>
     </PageWrapper>

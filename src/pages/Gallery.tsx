@@ -40,12 +40,17 @@ const Gallery = () => {
               onClick={() => openLightbox(index)}
               className="relative aspect-square rounded-xl overflow-hidden cursor-pointer group"
             >
-              {/* Placeholder image */}
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center">
-                <span className="text-4xl">🖼️</span>
-              </div>
+              {/* Image */}
+              <img
+                src={item.image}
+                alt={item.title}
+                className="absolute inset-0 w-full h-full object-cover"
+              />
 
-              {/* Overlay */}
+              {/* Subtle gradient */}
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20" />
+
+              {/* Hover overlay */}
               <div className="absolute inset-0 bg-background/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                 <div className="text-center">
                   <p className="font-semibold text-foreground">{item.title}</p>

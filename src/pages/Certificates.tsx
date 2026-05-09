@@ -23,16 +23,30 @@ const Certificates = () => {
               transition={{ delay: 0.1 + index * 0.1 }}
               className="glass-card overflow-hidden hover-lift"
             >
-              {/* Certificate image placeholder */}
-              <div className="relative h-40 bg-gradient-to-br from-primary/10 to-secondary/10 flex items-center justify-center">
-                <Award size={48} className="text-primary/50" />
+              {/* Certificate Image */}
+              <div className="relative h-44 bg-muted">
+                {cert.image ? (
+                  <img
+                    src={cert.image}
+                    alt={cert.title}
+                    className="w-full h-full object-contain p-4"
+                  />
+                ) : (
+                  <div className="w-full h-full flex items-center justify-center">
+                    <Award size={48} className="text-primary/50" />
+                  </div>
+                )}
               </div>
 
-              {/* Content */}
+              {/* Text Content */}
               <div className="p-6">
                 <span className="tech-badge mb-3 inline-block">{cert.date}</span>
-                <h3 className="text-lg font-bold text-foreground mb-1">{cert.title}</h3>
-                <p className="text-sm text-muted-foreground mb-4">Issued by {cert.issuer}</p>
+
+                <h3 className="text-lg font-bold mb-1">{cert.title}</h3>
+
+                <p className="text-sm text-muted-foreground mb-4">
+                  Issued by {cert.issuer}
+                </p>
 
                 <div className="flex gap-2">
                   <Button variant="neon" size="sm" className="flex-1" asChild>
@@ -41,6 +55,7 @@ const Certificates = () => {
                       View
                     </a>
                   </Button>
+
                   <Button variant="outline" size="sm" className="flex-1">
                     <Download size={14} />
                     Download

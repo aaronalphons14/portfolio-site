@@ -8,12 +8,12 @@ const navItems = [
   { name: "About", path: "/about" },
   { name: "Education", path: "/education" },
   { name: "Experience", path: "/experience" },
+  { name: "Extracurriculars", path: "/extracurriculars" },
   { name: "Projects", path: "/projects" },
   { name: "Skills", path: "/skills" },
   { name: "Achievements", path: "/achievements" },
   { name: "Gallery", path: "/gallery" },
   { name: "Certificates", path: "/certificates" },
-  { name: "Blog", path: "/blog" },
   { name: "Resume", path: "/resume" },
   { name: "Contact", path: "/contact" },
 ];
