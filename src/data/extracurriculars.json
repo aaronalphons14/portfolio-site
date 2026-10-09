@@ -1,6 +1,20 @@
 [
   {
     "id": 1,
+    "title": "Adaptive Weather–Seismic Monitoring and Multi-Tier Earthquake Alert System",
+    "role": "Patent Published",
+    "duration": "2026",
+    "description": "Published patent for an integrated IoT and sensor-driven multi-tier disaster monitoring and early warning architecture combining real-time seismic vibration detection and atmospheric condition telemetry.",
+    "icon": "📜",
+    "highlights": [
+      "Official Title: ADAPTIVE WEATHER–SEISMIC MONITORING AND MULTI-TIER EARTHQUAKE ALERT SYSTEM",
+      "Engineered an adaptive multi-tier sensor fusion architecture for real-time seismic and meteorological monitoring",
+      "Designed early warning notification pipelines to reduce disaster response latency and protect communities"
+    ],
+    "image": ""
+  },
+  {
+    "id": 2,
     "title": "Riviera — VIT",
     "role": "Event Coordinator",
     "duration": "2025",

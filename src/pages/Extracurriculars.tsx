@@ -24,7 +24,7 @@ const Extracurriculars = () => {
             >
               <div className="flex flex-col md:flex-row">
                 {/* Image Section */}
-                {item.image && (
+                {item.image ? (
                   <div className="md:w-72 flex-shrink-0">
                     <div className="relative h-56 md:h-full">
                       <img
@@ -34,6 +34,15 @@ const Extracurriculars = () => {
                       />
                       <div className="absolute inset-0 bg-gradient-to-r from-transparent to-background/60 hidden md:block" />
                       <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent md:hidden" />
+                    </div>
+                  </div>
+                ) : (
+                  <div className="md:w-72 flex-shrink-0 bg-gradient-to-br from-primary/10 via-secondary/10 to-primary/5 flex items-center justify-center p-8 border-b md:border-b-0 md:border-r border-border/30">
+                    <div className="text-center">
+                      <div className="w-20 h-20 rounded-2xl bg-primary/20 border border-primary/30 flex items-center justify-center mx-auto mb-3 text-4xl shadow-glow">
+                        {item.icon}
+                      </div>
+                      <span className="tech-badge">{item.role}</span>
                     </div>
                   </div>
                 )}

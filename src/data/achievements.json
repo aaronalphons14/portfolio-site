@@ -8,34 +8,69 @@
   },
   {
     "id": 2,
+    "title": "2nd Prize — ₹50,000 | MEGATHON’26",
+    "description": "Secured 2nd Prize with a cash award of ₹50,000 at MEGATHON’26, hosted by Saveetha Engineering College, Chennai, for developing Drestein — an innovative solution showcasing technical excellence, creativity, and real-world problem-solving.",
+    "date": "2026",
+    "icon": "🥈"
+  },
+  {
+    "id": 3,
+    "title": "2nd Place — Auto Expo 2026 | ARC, VIT",
+    "description": "Secured 2nd Place with a ₹10,000 cash prize in the Mobility Mastermind (AI Embedded Automotive Systems) track at Auto Expo 2026, hosted by the Automotive Research Centre (ARC), Vellore Institute of Technology.",
+    "date": "2026",
+    "icon": "🥈"
+  },
+  {
+    "id": 4,
+    "title": "3rd Place — $150 | Panimalar Engineering College",
+    "description": "Secured 3rd Place and won $150 in the Best Track at Panimalar Engineering College for developing Journey360 — an AI-powered, context-aware travel companion that integrates intelligent itinerary planning, real-time safety alerts, navigation, weather updates, and adaptive travel recommendations. Implemented ActionVector DB to enhance intelligent action planning and decision-making, helping travelers adapt to changing conditions and make safer, smarter, and more informed travel decisions.",
+    "date": "2026",
+    "icon": "🥉"
+  },
+  {
+    "id": 5,
+    "title": "Top 10 All India — SanDisk Cerebrum Hackathon",
+    "description": "Ranked among the Top 10 teams across India in the SanDisk Cerebrum Hackathon for developing SanDisk Cerebrum — an AI-powered die yield intelligence system that detects whether semiconductor wafer dies pass or fail. Built a multimodal AI pipeline combining electrical measurements, spatial features, and CNN-based raw signal analysis to identify potential defects, improve detection precision, and reduce unnecessary secondary analysis through an intelligent cascade architecture.",
+    "date": "2026",
+    "icon": "🏆"
+  },
+  {
+    "id": 6,
+    "title": "Special Mention & 5th Prize — SRCAS, Coimbatore",
+    "description": "Recognized with a Special Mention and secured 5th Prize at Sri Ramakrishna College of Arts & Science (SRCAS), Coimbatore, for developing GramOne — a rural problem-to-impact platform connecting citizens, Panchayat governance, IoT-based infrastructure monitoring, and CSR funding to improve rural communities.",
+    "date": "2026",
+    "icon": "🥈"
+  },
+  {
+    "id": 7,
     "title": "Cyberverse Hackathon — Runner-Up",
     "description": "Secured Runner-Up position at Cyberverse, a 36-hour hackathon at Vellore Institute of Technology, Vellore. Built CyberShield — an AI-powered system for detecting spam offers and phishing attempts.",
     "date": "2025",
     "icon": "🥈"
   },
   {
-    "id": 3,
+    "id": 8,
     "title": "LeetCode Problem Solver",
     "description": "Solved 50+ problems on LeetCode, strengthening problem-solving and DSA skills across arrays, graphs, trees, and dynamic programming.",
     "date": "2025",
     "icon": "💻"
   },
   {
-    "id": 4,
+    "id": 9,
     "title": "AWS Cloud Technical Certificate",
     "description": "Earned AWS Cloud Technical Essentials certification, demonstrating proficiency in cloud architecture and deployment.",
     "date": "2025",
     "icon": "☁️"
   },
   {
-    "id": 5,
+    "id": 10,
     "title": "Google Project Management Certificate",
     "description": "Completed Google's Project Management professional certificate, mastering Agile methodologies, stakeholder management, and project lifecycle.",
     "date": "2025",
     "icon": "📋"
   },
   {
-    "id": 6,
+    "id": 11,
     "title": "Merit Rank Holder — VIT",
     "description": "Achieved merit rank in the first year at Vellore Institute of Technology with a 9.44 CGPA in Integrated MTech CSE.",
     "date": "2024",

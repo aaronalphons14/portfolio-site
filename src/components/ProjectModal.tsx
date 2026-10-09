@@ -47,7 +47,15 @@ const ProjectModal = ({ project, isOpen, onClose }: ProjectModalProps) => {
             <div className="glass-card h-full md:h-auto max-h-[90vh] overflow-y-auto">
               {/* Header */}
               <div className="relative h-48 bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center">
-                <span className="text-6xl">🚀</span>
+                <span className="text-6xl">
+                  {project.category === "AI/ML" ? "🤖" :
+                   project.category === "Security" ? "🛡️" :
+                   project.category === "AI" ? "🧠" :
+                   project.category === "IoT" ? "📡" :
+                   project.category === "Web" ? "🌐" :
+                   project.category === "Generative AI" ? "✨" :
+                   project.category === "Full-Stack" ? "⚡" : "🚀"}
+                </span>
                 <button
                   onClick={onClose}
                   className="absolute top-4 right-4 p-2 rounded-full bg-background/50 hover:bg-background/80 transition-colors"

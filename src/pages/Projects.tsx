@@ -36,6 +36,9 @@ const Projects = () => {
                   {project.category === "AI" && "🧠"}
                   {project.category === "IoT" && "📡"}
                   {project.category === "Web" && "🌐"}
+                  {project.category === "Generative AI" && "✨"}
+                  {project.category === "Full-Stack" && "⚡"}
+                  {!["AI/ML", "Security", "AI", "IoT", "Web", "Generative AI", "Full-Stack"].includes(project.category) && "🚀"}
                 </span>
                 <div className="absolute top-3 left-3">
                   <span className="tech-badge">{project.category}</span>

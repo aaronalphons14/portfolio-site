@@ -1,42 +1,72 @@
 [
   {
     "id": 1,
+    "title": "2nd Place — Auto Expo 2026 | ARC, VIT",
+    "image": "/images/arc-auto-expo.jpg",
+    "category": "Awards"
+  },
+  {
+    "id": 2,
+    "title": "2nd Prize — ₹50,000 | MEGATHON’26",
+    "image": "/images/drestein-megathon.jpg",
+    "category": "Hackathons"
+  },
+  {
+    "id": 3,
+    "title": "3rd Place — $150 | Panimalar Engineering College",
+    "image": "/images/panimalar-pechacks.png",
+    "category": "Hackathons"
+  },
+  {
+    "id": 4,
+    "title": "Top 10 All India — SanDisk Cerebrum Hackathon",
+    "image": "/images/sandisk-cerebrum.jpg",
+    "category": "Hackathons"
+  },
+  {
+    "id": 5,
+    "title": "5th Prize in SRCAS College, Coimbatore",
+    "image": "/images/srcas-hackathon.jpg",
+    "category": "Hackathons"
+  },
+  {
+    "id": 6,
     "title": "Cyberverse Hackathon Victory",
     "image": "/images/gallery-1.jpg",
     "category": "Hackathons"
   },
   {
-    "id": 2,
-    "title": "Impact-AI-Thon '26 — Cash Prize Award",
-    "image": "/images/hackathon-cashprize.jpg",
+    "id": 7,
+    "title": "SanDisk Cerebrum Hackathon — Campus",
+    "image": "/images/sandisk-campus.jpg",
     "category": "Hackathons"
   },
   {
-    "id": 3,
+    "id": 8,
     "title": "Impact-AI-Thon '26 — Award Ceremony",
     "image": "/images/hackathon-ceremony.jpg",
     "category": "Hackathons"
   },
   {
-    "id": 4,
+    "id": 9,
     "title": "Riviera VIT — Coordinator",
     "image": "/images/riviera-coordinator.jpg",
     "category": "Extracurricular"
   },
   {
-    "id": 5,
+    "id": 10,
     "title": "Riviera VIT — Coordination Team",
     "image": "/images/riviera-team.jpg",
     "category": "Extracurricular"
   },
   {
-    "id": 6,
+    "id": 11,
     "title": "Award Ceremony",
     "image": "/images/gallery-4.jpg",
     "category": "Awards"
   },
   {
-    "id": 7,
+    "id": 12,
     "title": "Tech Meetup",
     "image": "/images/gallery-6.jpg",
     "category": "Events"

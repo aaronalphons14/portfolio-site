@@ -27,8 +27,15 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2">
-            <span className="text-xl font-bold gradient-text font-space">&lt;PORTFOLIO /&gt;</span>
+          <Link to="/" className="flex items-center gap-2.5 group">
+            <img 
+              src="/favicon.svg" 
+              alt="Aaron Alphons Thomas Logo" 
+              className="w-8 h-8 rounded-lg border border-primary/30 group-hover:border-primary/60 transition-all duration-300" 
+            />
+            <span className="text-base sm:text-lg font-bold gradient-text font-space tracking-tight">
+              Aaron Alphons Thomas
+            </span>
           </Link>
 
           {/* Desktop Navigation */}
